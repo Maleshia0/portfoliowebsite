@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Engineering portfolio of Gaitrie Maleshia Motilall.">
+  <title>Gaitrie Maleshia Motilall | Electrical & Computer Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#home" class="brand">Gaitrie's Portfolio</a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Work Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Work Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-left reveal">
+          <p class="hero-kicker">Electrical &amp; Computer Engineer</p>
+          <h1>Welcome to my personal website!</h1>
+
+          <div class="hero-divider"></div>
+
+          <div class="resume-row">
+            <a class="resume-button" href="assets/gaitrie-motilall-resume.pdf" target="_blank" rel="noreferrer">
+              Resume
+            </a>
+            <p>
+              If you're in a rush, you can download my resume by clicking the button.<br>
+              Otherwise, enjoy my online curriculum vitae!
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <img src="assets/gaitrie-headshot.png" alt="Professional portrait of Gaitrie Maleshia Motilall">
+        </div>
+      </div>
+
+      <a class="scroll-arrow" href="#about" aria-label="Scroll to About Me">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="section light-section" id="about">
+      <div class="section-title reveal">
+        <p>About Me</p>
+        <h2>Engineering practical systems across hardware, software, and research.</h2>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-text reveal">
+          <p>
+            I am an Electrical and Computer Engineering graduate with experience in embedded systems,
+            PCB development, electromagnetic simulation, biomedical impedance research, and
+            electromechanical troubleshooting.
+          </p>
+          <p>
+            My work combines circuit design, software, simulation, fabrication, testing, and technical
+            documentation. I am especially interested in power electronics, controls, RF systems, automation,
+            and product development.
+          </p>
+        </div>
+
+        <div class="stat-grid reveal">
+          <div><strong>3.64</strong><span>GPA</span></div>
+          <div><strong>15%</strong><span>Reduced equipment downtime</span></div>
+          <div><strong>0.20 dB</strong><span>Directivity difference from theory</span></div>
+          <div><strong>2+</strong><span>Years of technical operations</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="education">
+      <div class="section-title reveal">
+        <p>Education</p>
+        <h2>New York Institute of Technology</h2>
+      </div>
+
+      <div class="education-card reveal">
+        <div>
+          <span class="date-label">Graduated May 2026</span>
+          <h3>B.S. in Electrical and Computer Engineering</h3>
+          <p>Minor in Mathematics · 3.64 GPA · Honors List</p>
+        </div>
+        <div>
+          <h4>Relevant Coursework</h4>
+          <p>Electrical Circuits II, Microprocessors, Electronics II, Antenna Theory, and Communication Systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="projects">
+      <div class="section-title reveal">
+        <p>Projects</p>
+        <h2>Selected engineering work</h2>
+      </div>
+
+      <div class="project-timeline reveal" aria-label="Project timeline">
+        <div class="project-timeline-line" aria-hidden="true"></div>
+        <div class="project-timeline-entry">
+          <span class="timeline-dot"></span>
+          <span class="timeline-project-date">January 2025 — May 2026</span>
+          <strong>Senior Design — Embedded EIS System</strong>
+        </div>
+        <div class="project-timeline-entry">
+          <span class="timeline-dot"></span>
+          <span class="timeline-project-date">January 2026</span>
+          <strong>Top-Hat Dipole Antenna Simulation</strong>
+        </div>
+        <div class="project-timeline-entry">
+          <span class="timeline-dot"></span>
+          <span class="timeline-project-date">June 2026</span>
+          <strong>CM4 Railway Direction Control System</strong>
+        </div>
+      </div>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/cm4-railway-schematic.png" alt="KiCad schematic for Raspberry Pi CM4 railway control system">
+        </div>
+        <div class="project-copy">
+          <div class="project-meta"><span class="project-number">01</span><span class="project-date">June 2026</span></div>
+          <h3>Microcontroller-Based Railway Direction Control System</h3>
+          <p>
+            Designed a Raspberry Pi CM4-based railway controller in KiCad with directional controls,
+            indicator LEDs, USB-C connectivity, test points, and an I²C OLED display.
+          </p>
+          <div class="tags"><span>KiCad</span><span>Raspberry Pi CM4</span><span>USB-C</span><span>GPIO</span><span>I²C</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reverse reveal">
+        <div class="project-gallery">
+          <img src="assets/nsf-impedance-graph.png" alt="Impedance magnitude versus distance graph">
+          <img src="assets/nsf-skin-model.png" alt="Layered skin tissue electromagnetic model">
+        </div>
+        <div class="project-copy">
+          <span class="project-number">02</span>
+          <h3>NSF Electromagnetic &amp; Impedance Research</h3>
+          <p>
+            Conducted simulation-driven research on noninvasive skin-cancer detection by modeling
+            biological tissue and evaluating impedance response, electrode geometry, and frequency behavior.
+          </p>
+          <div class="tags"><span>MATLAB</span><span>FEKO</span><span>EIS</span><span>Data Analysis</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-image">
+          <img src="assets/urep-prototype.png" alt="UREP electromechanical prototype">
+        </div>
+        <div class="project-copy">
+          <span class="project-number">03</span>
+          <h3>UREP Electromechanical Prototype</h3>
+          <p>
+            Developed and evaluated an electromechanical prototype from digital modeling through
+            physical fabrication, with attention to fit, alignment, and repeatable assembly.
+          </p>
+          <div class="tags"><span>CAD</span><span>Fabrication</span><span>Prototyping</span><span>Validation</span></div>
+        </div>
+      </article>
+
+      <article class="project-card reverse reveal">
+        <div class="project-image">
+          <img src="assets/senior-design-system.png" alt="Embedded electrical impedance spectroscopy senior design system">
+        </div>
+        <div class="project-copy">
+          <div class="project-meta"><span class="project-number">04</span><span class="project-date">January 2025 — May 2026</span></div>
+          <h3>Embedded EIS System for Skin Cancer Detection</h3>
+          <p>
+            Led development of a noninvasive impedance platform with controlled electrode switching,
+            automated frequency sweeps, real-time logging, a low-noise signal path, and actuated scanning.
+          </p>
+          <div class="tags"><span>AD5933</span><span>Arduino</span><span>Analog Design</span><span>NEMA 17</span><span>GUI</span></div>
+        </div>
+      </article>
+
+      <article class="antenna-card reveal">
+        <div class="project-image">
+          <img src="assets/top-hat.png" alt="Top-Hat Infinitesimal Dipole Antenna Simulation">
+        </div>
+        <div class="project-copy">
+          <div class="project-meta"><span class="project-number">05</span><span class="project-date">January 2026</span></div>
+          <h3>Top-Hat Infinitesimal Dipole Antenna Simulation</h3>
+          <p>
+            Modeled a 30 MHz top-hat infinitesimal dipole in Altair FEKO. Simulated directivity
+            was within 0.20 dB of theory, with a 10.97% radiation-resistance difference.
+          </p>
+          <div class="tags"><span>Altair FEKO</span><span>30 MHz</span><span>Far Field</span><span>RF Simulation</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section dark-section" id="experience">
+      <div class="section-title reveal">
+        <p>Work Experience</p>
+        <h2>Research and technical operations</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">May 2023 — Jul 2024</div>
+          <div>
+            <span>National Science Foundation</span>
+            <h3>Research Assistant — Electromagnetic &amp; Impedance Research</h3>
+            <p>
+              Modeled biological tissue, analyzed impedance behavior, supported noninvasive diagnostic
+              research, and translated simulated and experimental results into formal documentation.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Feb 2023 — Oct 2025</div>
+          <div>
+            <span>Mars — M&amp;M’s</span>
+            <h3>Technical Operations Associate</h3>
+            <p>
+              Operated and troubleshot electromechanical printing systems, reducing downtime by approximately
+              15% through fault isolation, alignment, cleaning, component servicing, and system recovery.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section light-section" id="skills">
+      <div class="section-title reveal">
+        <p>Technical Skills</p>
+        <h2>A practical engineering toolkit</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal"><h3>Design &amp; Simulation</h3><p>KiCad, Altair FEKO, PSpice, MATLAB, AutoCAD, PCB schematics, and electromagnetic simulation.</p></div>
+        <div class="skill-card reveal"><h3>Embedded &amp; Software</h3><p>Python, C++, Java, Arduino Uno, PSoC3, Raspberry Pi CM4, GitHub, I²C, timing, and data acquisition.</p></div>
+        <div class="skill-card reveal"><h3>Hardware</h3><p>Soldering, power and grounding, current sizing, motor drives, mixed-signal systems, and electromechanical integration.</p></div>
+        <div class="skill-card reveal"><h3>Safety &amp; Standards</h3><p>OSHA 30-Hour Construction Training, NFPA 70E, electrical testing, preventative maintenance, and documentation.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p>Contact</p>
+        <h2>Let’s build something meaningful.</h2>
+        <span>Open to opportunities in embedded systems, power electronics, controls, RF, automation, and product development.</span>
+      </div>
+
+      <div class="contact-links reveal">
+        <a href="mailto:maleshiamotilall@gmail.com">maleshiamotilall@gmail.com</a>
+        <a href="https://www.linkedin.com/in/gaitrie-motilall-167b06226/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="assets/gaitrie-motilall-resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a href="tel:+19176909287">917-690-9287</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Gaitrie Maleshia Motilall</span>
+    <span>Electrical &amp; Computer Engineer</span>
+    <span id="year"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
